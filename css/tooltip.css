@@ -1,0 +1,29 @@
+a.tip {
+	position: relative;
+	color:#000000;
+	text-decoration:none;
+	cursor:default;
+}
+
+a.tip span {
+	display: none;
+	position: absolute;
+	top: -50px;
+	left: 50px;
+	width: 150px;
+	padding: 5px;
+	z-index: 100;
+	background: #000;
+	color: #fff;
+	-moz-border-radius: 5px; /* this works only in camino/firefox */
+	-webkit-border-radius: 5px; /* this is just for Safari */
+}
+
+a:hover.tip {
+	font-style: normal;
+	font-weight: normal; /* this is just for IE */
+}
+
+a:hover.tip span {
+	display: block;
+}

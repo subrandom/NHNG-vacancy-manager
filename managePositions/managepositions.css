@@ -1,0 +1,174 @@
+    table.tablesorter {
+        font-family:arial;
+        background-color: #CDCDCD;
+        text-align: center;
+        width: 100%;
+    }
+    table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+        background-color: #e6EEEE;
+        border: 1px solid #FFF;
+        font-size: .8em;
+
+    }
+    table.tablesorter tbody td.callout-red
+    {
+    	background-color: red;
+    }
+    table.tablesorter tbody td.callout-yellow
+    {
+	    background-color: #fbff0a
+    }
+    table.tablesorter thead tr .header {
+        background-image: url(../images/bg.gif);
+        background-repeat: no-repeat;
+        background-position: center right;
+        padding: 4px;
+        cursor: pointer;
+    }
+    table.tablesorter tbody td {
+        color: #3D3D3D;
+        padding: 2px;
+        background-color: #FFF;
+        vertical-align: top;
+        font-size: .8em;
+    }
+    table.tablesorter tbody td.yellow {
+    	background-color:#ffd;
+    }
+    table.tablesorter tbody tr.odd td {
+        background-color:#F0F0F6;
+    }
+    table.tablesorter thead tr .headerSortUp {
+        background-image: url(../images/asc.gif);
+    }
+    table.tablesorter thead tr .headerSortDown {
+        background-image: url(../images/desc.gif);
+    }
+    table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+        background-color: #8dbdd8;
+    }
+    table.tablesorter caption{
+        font-size: 12pt;
+    }
+.hidden
+{
+    display:none;
+}
+h5
+{
+	font-weight:normal;
+	font-size: 12pt;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30em;
+}
+table.smalltable
+{
+    font-family: arial, helvetica, sans-serif;
+    margin-left:auto;
+    font-size:10pt;
+    margin-right:auto;
+    text-align:center;
+    width: 40%;
+}
+table.smalltable thead tr th, table.smalltable tfoot tr th
+{
+    border: 1px solid #FFF;
+    background-color: #e6EEEE;
+}
+table.smalltable thead tr .header
+{
+    padding: 4px;
+}
+table.smalltable tbody td
+{
+    padding: 4px;
+    vertical-align: top;
+}
+table.inputtable
+{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:10pt;
+	font-family: arial, helvetica, sans-serif;
+	vertical-align:middle;
+}
+form
+{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 10pt;
+	text-align: center;
+}
+form#unreserve
+{
+	max-width: 50em;
+}
+form#reserve, form#lock, form#unlock
+{
+	max-width: 60em;
+	vertical-align: top;	
+}
+form#reserve label, form#lock label, form#unlock label
+{
+	display:inline-block;
+	min-height: 1em;
+	min-width: 10em;
+	margin: 0px auto 5px 5px;
+	border: 1px black solid;
+	background-color:#e6EEEE;
+	text-align: center;
+	vertical-align: top;
+
+}
+form#reserve label.rodata, form#lock label.rodata, form#unlock label.rodata
+{
+	display: inline-block;
+	min-height: 2em;
+	min-width: 10em;
+	margin-top: 0;
+	background-color: white;
+	text-align: center;
+	vertical-align: top;
+	padding-left: 0px;
+	border: none;
+}
+
+form#reserve select.userInput, input.userInput, form#lock select.userInput, imput.userInput
+{
+	display: inline-block;
+	max-height: 2em;
+	min-width: 12em;
+	max-width: 12em;
+	margin: 0;
+	padding: 0;
+	margin-left: 7px;
+	background-color:yellow;
+	vertical-align: top;
+}
+
+form#reserve label.plainLeft, form#unreserve label.plainLeft, form#lock label.plainLeft, form#unlock label.plainLeft
+{
+	background-color: transparent;
+	border:none;
+	margin-bottom:0;
+	margin-top: 5px;
+	text-align: left;
+}
+blockquote
+{
+	max-width: 40em;
+	margin-left: auto;
+	margin-right: auto;
+}
+#toppanel /**/
+{
+	overflow:auto;
+    width: inherit;
+    text-align: left;
+	padding:10px;
+	padding-top:0;
+	margin-top:0;
+	min-height: 194px;
+}

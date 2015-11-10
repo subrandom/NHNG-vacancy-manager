@@ -1,0 +1,89 @@
+    table.tablesorter {
+        font-family:arial;
+        background-color: #CDCDCD;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 100%;
+    }
+    table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+        background-color: #e6EEEE;
+        border: 1px solid #FFF;
+        font-size: 10pt;
+
+    }
+    table.tablesorter tbody td.callout-red
+    {
+    	background-color: red;
+    }
+    table.tablesorter tbody td.callout-yellow
+    {
+	    background-color: #fbff0a
+    }
+    table.tablesorter thead tr .header {
+        background-image: url(../images/bg.gif);
+        background-repeat: no-repeat;
+        background-position: center right;
+        padding: 4px;
+        cursor: pointer;
+    }
+    table.tablesorter tbody td {
+        color: #3D3D3D;
+        padding: 4px;
+        background-color: #FFF;
+        vertical-align: top;
+    }
+    table.tablesorter tbody td.yellow {
+    	background-color:#BECC20;
+    }
+    table.tablesorter tbody tr.odd td {
+        background-color:#F0F0F6;
+    }
+    table.tablesorter thead tr .headerSortUp {
+        background-image: url(../images/asc.gif);
+    }
+    table.tablesorter thead tr .headerSortDown {
+        background-image: url(../images/desc.gif);
+    }
+    table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+        background-color: #8dbdd8;
+    }
+    table.tablesorter caption{
+        font-size: 12pt;
+    }
+.hidden
+{
+    display:none;
+}
+table.smalltable
+{
+    font-family: arial, helvetica, sans-serif;
+    margin-left:auto;
+    font-size:10pt;
+    margin-right:auto;
+    text-align:center;
+    width: 40%;
+}
+table.smalltable thead tr th, table.smalltable tfoot tr th
+{
+    border: 1px solid #FFF;
+    background-color: #e6EEEE;
+}
+table.smalltable thead tr .header
+{
+    padding: 4px;
+}
+table.smalltable tbody td
+{
+    padding: 4px;
+    vertical-align: top;
+}
+table.inputtable
+{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:10pt;
+	font-family: arial, helvetica, sans-serif;
+	vertical-align:middle;
+}

@@ -1,0 +1,36 @@
+a.button /**/
+{
+	display:inline-block;
+	text-align: center;
+	font-size: 10pt;
+	min-width: 8em;
+	max-height: 2em;
+	padding: .3em;
+	margin-top: .8%;
+	margin-left: .3%;
+	margin-right: .3%;
+	box-shadow: 5px 5px 3px #888;
+	background-color: white;
+	border: 1px solid black;
+	box-shadow: 3px 3px 6px black;
+}
+a.button:link, a.button:visited /**/
+	{
+		color: black;
+		text-decoration: none;
+	}
+
+a.button:hover /**/
+{
+	background-color: #3ca0f8;
+}
+#toppanel /**/
+{
+	overflow:auto;
+    width: inherit;
+    text-align: left;
+	padding:10px;
+	padding-top:0;
+	margin-top:0;
+	min-height: 160px;
+}

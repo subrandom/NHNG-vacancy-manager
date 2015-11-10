@@ -1,0 +1,43 @@
+#unitForm
+{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+#unitForm label
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	display:inline-block;
+	min-width: 15em;
+	text-align: right;
+}
+
+#formButtons
+{
+	text-align: center;
+}
+
+#deleteForm
+{
+	margin-left:40%;
+}
+
+.hasHelp
+{
+	background-color: lightyellow;
+}
+
+td#offlimits
+{
+	background: lightyellow;
+}
+#toppanel /**/
+{
+	overflow:auto;
+    width: inherit;
+    text-align: left;
+	padding:10px;
+	padding-top:0;
+	margin-top:0;
+	min-height: 75px;
+}

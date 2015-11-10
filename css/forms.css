@@ -1,0 +1,10 @@
+input:focus, textarea:focus, select:focus
+  { background : #ffd;
+    color : black; }
+
+  form.inputform
+  {
+      font-family: arial,helvetica,sans-serif;
+      font-size: .9em;
+      text-align:center;
+}

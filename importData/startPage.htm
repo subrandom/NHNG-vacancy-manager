@@ -1,0 +1,51 @@
+<div id="introText">
+	<p>This is the module for importing vacancy data.<br>
+		<br />
+		Once you begin, please do not close your web browser or exit the module until the entire process is complete</p>
+	<p>The data import process goes like this:</p>
+	<ol>
+		<li>Choose the data file and upload it to the server</li>
+		<li>Add positions in the data file that are not in our database</li>
+		<li>Remove positions from our database that the data file indicates are filled</li>
+	</ol>
+	<ul>Notes:
+		<li>There are no confirmations or prompts.</li>
+		<li>New items are automatically imported.</li>
+		<li>Positions that no longer exist in the import file are automatically deleted. </li>
+		<li>Held positions that are not marked as enlisted are flagged as invalid and highlighted in red in the position manager. </li>
+	</ul>
+	
+	<p>When you are ready to begin, click the Start button below, or abort by choosing another destination from the menu.</p>
+	<div id="center"><a href="#" class="button" onclick="showStep('stepOne');return false">START</a></div>
+</div> 
+<div id="stepOne" style="display:none">
+	<form class="left" id="startForm" name="startForm" action="doVacancyImport.php" enctype="multipart/form-data" method="post">
+		<p>Click the button below and select the data file.</p>
+		<input type="file" accept="text/csv, *.csv" name="datafile" size="40">
+		<br /><br />
+		<input type="submit" value="Click this button">
+		to finish the import.
+	</form>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        var options= {
+                target: '#toppanel',
+                success:
+                	function()
+                	{
+	                	$('#bottompanel').load('importDone.htm');
+                	}
+            };
+            $('#startForm').ajaxForm(options);
+    });
+
+function showStep(myPage)
+{
+	document.getElementById('introText').style.display = "none";
+	document.getElementById('stepOne').style.display = "none";
+	document.getElementById(myPage).style.display = "inherit";
+
+}
+</script>

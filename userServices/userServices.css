@@ -1,0 +1,23 @@
+div#center
+{
+	text-align: center;
+	max-width: 40em;
+	margin-left: auto;
+	margin-right: auto;	
+}
+form
+{
+	max-width: 40em;
+	margin-left: auto;
+	margin-right: auto;		
+}
+form input
+{
+	display: inline-block;
+}
+form label
+{
+	min-width: 10em;
+	display: inline-block;
+	text-align: right;
+}
